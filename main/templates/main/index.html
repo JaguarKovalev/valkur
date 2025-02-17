@@ -41,6 +41,7 @@
         <p id="afew"> НЕМНОГО </p>
         <p id="company"> О НАШЕЙ КОМПАНИИ </p>
         <ul id="Afewabout">
+          {% comment %} TODO {% endcomment %}
           <li class="two"> <button class="one" onclick="showDiv('div1')">КТО МЫ? </button></li>
           <li class="two"> <button class="one" onclick="showDiv('div2')">ЧТО МЫ ДЕЛАЕМ? </button></li>
           <li class="two"> <button class="one" onclick="showDiv('div3')">КТО НАШИ КЛИЕНТЫ? </button></li>
@@ -354,6 +355,16 @@
       </div>
       <script src="{% static 'main/js/script.js'%}"></script>
       
+      <div class="form-1">
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+    
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+    
+
       <p id="our3"> НАШИ <span id="kontakt">КОНТАКТЫ</span> </p>
       <div class="footer-container">
         <div class="footer-left">
@@ -386,3 +397,4 @@
   </div>
 </body>
 </html>
+
