@@ -1,0 +1,388 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'main/css/main.css'% }">
+    <link rel="stylesheet" href="{% static 'main/css/second.css'% }">
+    <link rel="stylesheet" href="{% static 'main/css/third.css'% }">
+    <link rel="stylesheet" href="{% static 'main/css/four.css'% }">
+    <link rel="stylesheet" href="{% static 'main/js/script.js'% }">
+    <link rel="stylesheet" href="{% static 'main/css/five.css'% }">
+</head>
+<body>
+  <div id="all">
+    <header id="list">
+      <ul id="listul">
+        <li class="menu"> <a href="#afew">О КОМПАНИИ </a></li>
+        <li class="menu"> <a href="#our">НАШИ СУДА </a></li>
+        <li class="menu"> <a href="#our3">СВЯЗАТЬСЯ С НАМИ </a></li>
+      </ul>
+    <script src="{% static 'main/js/script2.js'% }"></script>
+    </header>
+    <main>
+      <div id="imhead">
+        <div id="maint">
+          <p id="first"> ВАЛКУР </p>
+          <p id="secondsud"> СУДОХОДНАЯ КОМПАНИЯ </p> 
+          <p id="third"> Компания «Валкур» предоставляет услуги по морским перевозкам грузов по всему миру, обеспечивая надежную и безопасную логистику для различных категорий товаров. С акцентом на высокое качество обслуживания и индивидуальный подход, она гарантирует оптимальные сроки доставки и конкурентоспособные тарифы. </p>  
+          <div id="ops"><a id="podrobno" href="#afew"> Подробнее </a></div>
+          <script src="{% static 'main/js/script2.js'% }"></script>
+          <img id="port" src="{% static 'main/img/pport.jpg'% }" alt="Порт">
+          <div id="block"> </div>
+          <img id="logo" src="{% static 'main/img/banner-7_.png'% }" alt="Валкур">
+       </div>
+       <img id="left1" src="{% static 'main/img/valkur.png'% }" alt="Валкур">
+      </div>
+      <div id="imhead2">
+        <p id="afew"> НЕМНОГО </p>
+        <p id="company"> О НАШЕЙ КОМПАНИИ </p>
+        <ul id="Afewabout">
+          <li class="two"> <button class="one" onclick="showDiv('div1')">КТО МЫ? </button></li>
+          <li class="two"> <button class="one" onclick="showDiv('div2')">ЧТО МЫ ДЕЛАЕМ? </button></li>
+          <li class="two"> <button class="one" onclick="showDiv('div3')">КТО НАШИ КЛИЕНТЫ? </button></li>
+      </ul>
+
+        <div id="div1" class="content visible">
+          <img class="picture" src="{% static 'main/img/иконка.png'% }" alt="">
+          <div class="textcombo">
+          <p class="sometext"> Мы, компания «Валкур», основанная в 2012 году, специализируемся на морских грузоперевозках и организации северного завоза в удаленные регионы России. Наш опыт работы в сложных условиях Дальнего Востока, Мурманского порта и Арктики подтверждает нашу репутацию надежного логистического партнера. Мы стремимся предоставить нашим клиентам индивидуальный подход и лучшие решения в области логистики. </p>
+          <p class="sometext2" > Мы — компания "Валкур", успешно работающая в сфере морских грузоперевозок с 2012 года. Наша основная миссия заключается в обеспечении надежных и эффективных логистических решений для наших клиентов. Мы специализируемся на программе северного завоза, а также на снабжении объектов Министерства обороны Российской Федерации. Наши операции охватывают ключевые регионы, включая Дальневосточный регион, акваторию Мурманского порта и Арктику. Мы также осуществляем перевозки по Северному Морскому пути, что позволяет нам предоставлять высококачественные услуги в самых труднодоступных районах. Наша команда профессионалов стремится удовлетворять потребности клиентов, предлагая компетентные и продуманные решения в сфере морской логистики.</p>
+          </div>
+          <img class="ship" src="{% static 'main/img/about.jpg'% }" alt="">
+        </div>
+
+        <div id="div2" class="content" >
+          <img class="picture" src="{% static 'main/img/иконка2.png'% }" alt="">
+          <div class="textcombo">
+          <p class="sometext"> Компания "Валкур" была основана для предоставления высококачественных услуг в сфере морских грузоперевозок. Наша команда состоит из опытных специалистов, обладающих значительными знаниями в логистике и управлении проектами, что позволяет нам оставаться конкурентоспособными на рынке. Мы активно внедряем современные технологии и передовые практики в нашу работу. </p>
+          <p class="sometext2" > На сегодняшний день "Валкур" зарекомендовала себя как надежный партнер для различных секторов экономики. Мы гордимся тем, что нам удалось заслужить доверие клиентов благодаря нашей приверженности к качеству и безопасности. Наша компания обеспечивает стабильное выполнение всех операций, воспользовавшись большим опытом в управлении цепочками поставок. Мы понимаем, как важны своевременные грузоперевозки для бизнеса наших клиентов, и именно поэтому мы уделяем особое внимание каждой детали процесса. Наша команда непрерывно анализирует и оптимизирует рабочие процессы, чтобы минимизировать риски и задержки. Мы нацелены на долгосрочные партнерские отношения, в которых каждый клиент может быть уверен, что его груз находится в надежных руках.</p>
+          </div>
+          <img class="ship" src="{% static 'main/img/корабль2.png'% }" alt="">
+        </div>
+
+        <div id="div3" class="content" >
+          <img class="picture" src="{% static 'main/img/иконка3.png'% }" alt="">
+          <div class="textcombo">
+          <p class="sometext"> На сегодняшний день "Валкур" зарекомендовала себя как надежный партнер для множества организаций, включая такие известные компании, как "Газпром", "Роснефть", "Сибур" и "Транснефть". Мы гордимся доверием, которое нам оказывают наши клиенты, и стремимся поддерживать высокий и неизменно высокий уровень качества услуг, что позволяет эффективно удовлетворять их потребности. </p>
+          <p class="sometext2" > Наши клиенты представляют различные сектора экономики, что позволяет нам демонстрировать гибкость и эффективность в подходах к решению задач. Благодаря многолетнему опыту работы с крупными и средними предприятиями, мы понимаем уникальные потребности каждой отрасли и можем оптимизировать логистические процессы в соответствии с этими требованиями. Мы активно развиваем индивидуальные стратегии для каждого из наших партнеров, что способствует укреплению взаимовыгодных отношений. Понимая, что на сегодняшний день важнейшим фактором успешного бизнеса является надежность и скорость доставки, мы всегда ставим интересы клиентов на первое место и работаем над тем, чтобы гарантировать успешное завершение каждой грузоперевозки.</p>
+          </div>
+          <img class="ship" src="{% static 'main/img/сотр.jpg'% }" alt="">
+        </div>
+  
+
+        <script src="{% static 'main/js/script3.js'% }"></script>
+
+
+          <img id="vlk" src="{% static 'main/img/ВЛК.png'% }" alt="">
+          <img id="map" src="{% static 'main/img/jhccjhg.png'% }" alt="">
+          <img id="wave" src="{% static 'main/img/волна3.png'% }" alt="">
+      </div>
+      <div id="imhead3">
+        <p id="our"> НАШИ <span id="suda">СУДА</span> </p>
+        <div id="ship1">
+        <img class="blocks" id="nev" src="{% static 'main/img/онеонеог.png'% }" alt="">
+        <p class="lesha">АЛЕКСАНДР НЕВСКИЙ</p>
+        <table class="table">
+          <tr>
+            <td>Год постройки</td>
+            <td>1997</td>
+          </tr>
+          <tr>
+            <td>Тип</td>
+            <td>Балкер</td>
+          </tr>
+          <tr>
+            <td>Дедвейт</td>
+            <td>34167</td>
+          </tr>
+          <tr>
+            <td>Валаовая вместимость</td>
+            <td>20837</td>
+          </tr>
+          <tr>
+            <td>Длина</td>
+            <td>200</td>
+          </tr>
+          <tr>
+              <td>Ширина</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <td>Позывной</td>
+              <td>UETK</td>
+            </tr>
+        </table>
+        <a target="_blank" class="nevpodr" href="https://www.marinetraffic.com/en/ais/details/ships/shipid:228235/mmsi:273295660/imo:9356610/vessel:ALEXANDER_NEVSKIY#google_vignette">Подробнее</a>
+        <a target="_blank" id="second1" class="nevpodr" href="files/решение 21.docx" download="решение 21.docx">Документы</a>
+        </div>
+        <div id="ship2">
+        <img class="blocks" src="{% static 'main/img/омолон.png'% }" alt="">
+        <p class="lesha" id="omolon">ОМОЛОН</p>
+        <table id="second" class="table">
+            <tr>
+              <td>Год постройки</td>
+              <td>1997</td>
+            </tr>
+            <tr>
+              <td>Тип</td>
+              <td>Балкер</td>
+            </tr>
+            <tr>
+              <td>Дедвейт</td>
+              <td>34167</td>
+            </tr>
+            <tr>
+              <td>Валаовая вместимость</td>                
+              <td>20837</td>
+            </tr>
+            <tr>
+              <td>Длина</td>
+              <td>200</td>
+            </tr>
+            <tr>
+                <td>Ширина</td>
+                <td>24</td>
+              </tr>
+              <tr>
+                <td>Позывной</td>
+                <td>UETK</td>
+              </tr>
+          </table>
+        <a target="_blank" class="nevpodr" id="first2" href="">Подробнее</a>
+        <a target="_blank" id="second2" class="nevpodr" href="" download="">Документы</a>
+      </div>
+        <div id="ship3">
+        <img class="blocks" class="ships" src="{% static 'main/img/ленанефть.png'% }" alt="">
+        <table class="table">
+          <tr>
+            <td>Год постройки</td>
+            <td>1997</td>
+          </tr>
+          <tr>
+            <td>Тип</td>
+            <td>Балкер</td>
+          </tr>
+          <tr>
+            <td>Дедвейт</td>
+            <td>34167</td>
+          </tr>
+          <tr>
+            <td>Валаовая вместимость</td>                
+            <td>20837</td>
+          </tr>
+          <tr>
+            <td>Длина</td>
+            <td>200</td>
+          </tr>
+          <tr>
+              <td>Ширина</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <td>Позывной</td>
+              <td>UETK</td>
+            </tr>
+        </table>
+        <p class="lesha" id="lenan">ЛЕНАНЕФТЬ 2038</p>
+        <a target="_blank" class="nevpodr" id="first3" href="https://www.marinetraffic.com/en/ais/details/ships/shipid:228235/mmsi:273295660/imo:9356610/vessel:ALEXANDER_NEVSKIY#google_vignette">Подробнее</a>
+        <a target="_blank" id="second3" class="nevpodr" href="files/решение 21.docx" download="решение 21.docx">Документы</a>
+      </div>
+      <div id="ship4">
+        <img class="blocks" id="nev" src="{% static 'main/img/первозв.png'% }" alt="">
+        <p class="lesha" id="PERV">АНДРЕЙ ПЕРВОЗВАННЫЙ</p>
+        <table class="table">
+          <tr>
+            <td>Год постройки</td>
+            <td>2003</td>
+          </tr>
+          <tr>
+            <td>Тип</td>
+            <td>Нефтеналивной танкер</td>
+          </tr>
+          <tr>
+            <td>Дедвейт</td>
+            <td>25121</td>
+          </tr>
+          <tr>
+            <td>Валаовая вместимость</td>                
+            <td>16040</td>
+          </tr>
+          <tr>
+            <td>Длина</td>
+            <td>170</td>
+          </tr>
+          <tr>
+              <td>Ширина</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <td>Позывной</td>
+              <td>UCSB</td>
+            </tr>
+        </table>
+        <a target="_blank" class="nevpodr" id="first3" href="">Подробнее</a>
+        <a target="_blank" id="second4" class="nevpodr" href="" download="">Документы</a>
+      </div>
+      <div id="ship5">
+        <img class="blocks" class="ships" src="{% static 'main/img/мудрый.png'% }" alt="">
+        <p class="lesha" id="MUDR">ЯРОСЛАВ МУДРЫЙ</p>
+        <table class="table">
+          <tr>
+            <td>Год постройки</td>
+            <td>2003</td>
+          </tr>
+          <tr>
+            <td>Тип</td>
+            <td>Нефтеналивной танкер</td>
+          </tr>
+          <tr>
+            <td>Дедвейт</td>
+            <td>25121</td>
+          </tr>
+          <tr>
+            <td>Валаовая вместимость</td>                
+            <td>16040</td>
+          </tr>
+          <tr>
+            <td>Длина</td>
+            <td>170</td>
+          </tr>
+          <tr>
+              <td>Ширина</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <td>Позывной</td>
+              <td>UCSB</td>
+            </tr>
+        </table>
+        <a target="_blank" class="nevpodr" href="">Подробнее</a>
+        <a target="_blank" id="second5" class="nevpodr" href="" download="">Документы</a>
+      </div>
+      <div id="ship6">
+        <img class="blocks" class="ships" src="{% static 'main/img/палана.png'% }" alt="">
+        <p class="lesha" id="PALANA">ПАЛАНА</p>
+        <table class="table">
+          <tr>
+            <td>Год постройки</td>
+            <td>2003</td>
+          </tr>
+          <tr>
+            <td>Тип</td>
+            <td>Нефтеналивной танкер</td>
+          </tr>
+          <tr>
+            <td>Дедвейт</td>
+            <td>25121</td>
+          </tr>
+          <tr>
+            <td>Валаовая вместимость</td>                
+            <td>16040</td>
+          </tr>
+          <tr>
+            <td>Длина</td>
+            <td>170</td>
+          </tr>
+          <tr>
+              <td>Ширина</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <td>Позывной</td>
+              <td>UCSB</td>
+            </tr>
+        </table>
+        <a target="_blank" class="nevpodr" href="">Подробнее</a>
+        <a target="_blank" id="second6" class="nevpodr" href="" download="">Документы</a>
+      </div>
+      <div id="ship7">
+        <img class="blocks" class="ships" src="{% static 'main/img/kema.png'% }" alt="">
+        <p class="lesha" id="KEMA">КЕМА</p>
+        <table class="table">
+          <tr>
+            <td>Год постройки</td>
+            <td>2003</td>
+          </tr>
+          <tr>
+            <td>Тип</td>
+            <td>Нефтеналивной танкер</td>
+          </tr>
+          <tr>
+            <td>Дедвейт</td>
+            <td>25121</td>
+          </tr>
+          <tr>
+            <td>Валаовая вместимость</td>                
+            <td>16040</td>
+          </tr>
+          <tr>
+            <td>Длина</td>
+            <td>170</td>
+          </tr>
+          <tr>
+            <td>Ширина</td>
+            <td>24</td>
+          </tr>
+            <tr>
+              <td>Позывной</td>
+              <td>UCSB</td>
+            </tr>
+        </table>
+        <a target="_blank" class="nevpodr" href="https://www.marinetraffic.com/en/ais/details/ships/shipid:228235/mmsi:273295660/imo:9356610/vessel:ALEXANDER_NEVSKIY#google_vignette">Подробнее</a>
+        <a target="_blank" id="second7" class="nevpodr" href="files/решение 21.docx" download="решение 21.docx">Документы</a>
+      </div>
+      </div>
+      <div id="imhead4">
+        <p id="our2"> НАШИ <span id="partners">ПАРТНЁРЫ</span> </p>
+        <div id="omg"> </div>
+        <div class="slider">
+          <div class="slides">
+              <img src="{% static 'main/img/ляля.png'% }" alt="Картинка 1" class="slide">
+              <img src="{% static 'main/img/газпром.png'% }" alt="Картинка 2" class="slide">
+              <img src="{% static 'main/img/лукойле.png'% }" alt="Картинка 3" class="slide">
+              <img src="{% static 'main/img/норникель.png'% }" alt="Картинка 4" class="slide">
+              <img src="{% static 'main/img/ннк.png'% }" alt="Картинка 5" class="slide">
+          </div>
+          
+          <img src="{% static 'main/img/стрелкавлево.png'% }" alt="Назад" class="arrow left-arrow" onclick="prevSlide()">
+          <img src="{% static 'main/img/стрелкавправо.png'% }" alt="Вперед" class="arrow right-arrow" onclick="nextSlide()">
+      </div>      
+      </div>
+      <script src="{% static 'main/js/script.js'% }"></script>
+      
+      <p id="our3"> НАШИ <span id="kontakt">КОНТАКТЫ</span> </p>
+      <div class="footer-container">
+        <div class="footer-left">
+            <div class="footer-item">Адрес
+              <pre class="twoo">690001,г. Владивосток, 
+ул. Экипажная, д. 1, каб. 303, эт. 3 </pre>
+            </div>
+            <div class="footer-item">Телефон
+              <p class="twoo"> +7 423 220 62 50</p>
+            </div>
+            <div class="footer-item">E-Mail
+                <p class="twoo"> office@valkur.ru</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div id="wwt" class="footer-item">Генеральный директор: Орлов Алексей Васильевич
+              <p class="twoo">E-mail: orlov.av@valkur.ru</p>
+            </div>
+            <div class="footer-item">Исполнительный директор: Скачков Владимир Иванович
+            <p class="twoo">E-mail: skachkov.vi@valkur.ru</p>
+            </div>
+            <div class="footer-item">Начальник отдела кадров: Баранова Екатерина Александровна
+              <p class="twoo">E-mail: person@valkur.ru</p>
+            </div>
+        </div>
+    </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

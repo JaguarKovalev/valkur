@@ -1,0 +1,131 @@
+#down {
+    width: 50%;
+    height: 550px;
+    background-color: #22275A;
+    position: absolute;
+    z-index: 3;
+}
+
+#down2 {
+    width: 960px;
+    height: 550px;
+    background-color: #bbff00;
+    position: absolute;
+    z-index: 4;
+    left: 960px;
+}
+
+#our3{
+    color: aliceblue;
+    font-size: 40px;
+    padding-left: 235px;
+    font-weight: 400;
+    padding-top: 70px;
+    position: absolute;
+    z-index: 5;
+}
+
+#kontakt{
+    color: orange;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+.white{
+    color: aliceblue;
+    font-size: 24px;
+    padding-left: 200px;
+}
+
+.ser{
+    color: rgb(182, 182, 182);
+    font-size: 24px;
+    padding-left: 200px;
+}
+
+#p1{
+    padding-top: 50px;
+}
+
+#p2{
+    padding-top: 90px;
+}
+
+#p3{
+    padding-top: 60px;
+}
+
+.foot{
+    float: right;
+}
+
+#twice{
+    width: 500px;
+    height: 600px;
+    background-color: aqua;
+}
+
+.foot{
+    width: 500px;
+    height: 30px;
+    background-color: aqua;
+}
+
+.foot1{
+    width: 700px;
+    height: 50px;
+    background-color: rgb(167, 103, 21);
+}
+
+.white1{
+    color: aliceblue;
+    font-size: 24px;
+    padding-left: 1000px;
+    position: absolute;
+    z-index: 3;
+}
+
+.ser1{
+    color: rgb(170, 170, 170);
+    font-size: 24px;
+    padding-left: 1000px;
+    position: absolute;
+    z-index: 3;
+}
+
+.footer-container {
+    display: flex; /* Используем флекс-контейнер для размещения блоков */
+    justify-content: space-between; /* Распределяем блоки по краям */
+    padding: 100px; /* Общий отступ для всего контейнера */
+    background-color: #000441; /* Цвет фона контейнера */ /* Фиксируем футер внизу */
+    padding-left: 230px;
+    padding-right: 300px;
+    padding-top: 200px;
+    bottom: 0; /* Располагаем футер внизу окна */
+    left: 0; /* Обеспечиваем, чтобы футер был от края */
+    right: 0; /* Так же правый край футера будет на уровне правой стороны окна */
+    height: 280px;
+}
+
+.footer-left, .footer-right {
+    display: flex; /* Используем флекс-контейнеры для колонок */
+    flex-direction: column; /* Располагаем элементы в колонку */
+    gap: 20px; /* Отступы между элементами внутри колонки */
+}
+
+.footer-item {
+    padding: 10px; /* Внутренние отступы для блоков текста */
+    color: aliceblue;
+    font-family: Nunito;
+    font-size: 24px;
+}
+
+.twoo{
+    font-size: 18px;
+    color: rgb(156, 156, 156);
+}
+
+#wwt{
+    padding-top: 15px;
+}
