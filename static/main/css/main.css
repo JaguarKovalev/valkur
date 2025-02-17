@@ -163,3 +163,71 @@ header {
     height: 20px;
     cursor: pointer;
 }
+
+/* Форма */
+/* Оформление контейнера формы */
+.form-1 {
+    width: 500px;               /* При необходимости отрегулируйте ширину */
+    margin: 50px auto;          /* Выравниваем по центру */
+    background-color: #293E52;  /* Сочетание с остальной гаммой сайта */
+    border: 3px solid #28e6ff;  /* Тонкая рамка, гармонирующая с табличной обводкой */
+    border-radius: 15px;
+    padding: 30px;
+  }
+  
+  /* Стили тегов внутри формы */
+  .form-1 label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;                /* Белый шрифт */
+    font-family: Nunito, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  /* Поля ввода */
+  .form-1 input[type="text"],
+  .form-1 input[type="email"],
+  .form-1 input[type="password"],
+  .form-1 textarea,
+  .form-1 select {
+    width: 100%;
+    font-size: 16px;
+    font-family: Nunito, sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #3f678d;
+    border-radius: 8px;
+    color: #fff;                /* Белый текст */
+    background-color: #1A1A1A;  /* Тёмный фон */
+  }
+  
+  /* При фокусе — яркая обводка */
+  .form-1 input[type="text"]:focus,
+  .form-1 input[type="email"]:focus,
+  .form-1 input[type="password"]:focus,
+  .form-1 textarea:focus,
+  .form-1 select:focus {
+    outline: none;
+    border-color: #ff9d1e;      /* Оранжевая обводка при фокусе */
+  }
+  
+  /* Кнопка отправки */
+  .form-1 button[type="submit"] {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Nunito, sans-serif;
+    font-weight: 600;
+    color: #000;
+    background-color: #ff9d1e;  
+    border: none;
+    border-radius: 20px;
+    padding: 12px 30px;
+    transition: all 0.3s ease;
+  }
+  
+  .form-1 button[type="submit"]:hover {
+    background-color: #ffa733;  /* Чуть светлее при наведении */
+  }
+  
+/* Форма */
